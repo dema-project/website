@@ -1,0 +1,7 @@
+{
+  "name": "demawebsite",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
