@@ -1,22 +1,6 @@
 <template>
   <ion-page>
-    <ion-header :translucent="true" class="ion-no-border b">
-      <ion-toolbar>
-        <ion-title size="large">Title</ion-title>
-
-        <ion-buttons slot="end" :collapse="true">
-          <ion-button class="ion-text-capitalize">Button</ion-button>
-          <ion-button class="ion-text-capitalize">Button</ion-button>
-          <ion-button
-            shape="round"
-            class="ion-text-capitalize"
-            color="primary"
-            fill="solid"
-            >Button</ion-button
-          >
-        </ion-buttons>
-      </ion-toolbar>
-    </ion-header>
+    <page-header></page-header>
 
     <ion-content :fullscreen="true">
       <ion-grid class="b ion-padding">
@@ -92,7 +76,6 @@
 <script>
 import {
   IonContent,
-  IonHeader,
   IonPage,
   IonTitle,
   IonToolbar,
@@ -101,13 +84,15 @@ import {
   IonGrid,
   IonRow,
   IonCol,
+  IonText,
+  IonFooter,
 } from "@ionic/vue";
+import PageHeader from "../components/PageHeader.vue";
 
 export default {
   name: "HomePage",
   components: {
     IonContent,
-    IonHeader,
     IonPage,
     IonTitle,
     IonToolbar,
@@ -116,6 +101,9 @@ export default {
     IonGrid,
     IonRow,
     IonCol,
+    IonText,
+    IonFooter,
+    PageHeader,
   },
 };
 </script>
