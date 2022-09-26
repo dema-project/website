@@ -1,30 +1,26 @@
 <template>
   <ion-page>
-    <!-- Header component -->
     <page-header></page-header>
 
     <ion-content :fullscreen="true">
-      <ion-router-outlet />
+      <h1>Contact page</h1>
 
-      <!-- Footer component -->
       <page-footer></page-footer>
     </ion-content>
   </ion-page>
 </template>
 
 <script>
-import { IonPage, IonContent, IonRouterOutlet } from "@ionic/vue";
+import { IonPage } from "@ionic/vue";
 import PageHeader from "../components/PageHeader.vue";
 import PageFooter from "../components/PageFooter.vue";
 
 export default {
-  name: "HomeView",
+  name: "ContactPage",
   components: {
-    PageHeader,
     IonPage,
-    IonContent,
+    PageHeader,
     PageFooter,
-    IonRouterOutlet,
   },
 };
 </script>

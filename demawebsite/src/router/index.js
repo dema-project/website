@@ -1,21 +1,21 @@
 import { createRouter, createWebHistory } from '@ionic/vue-router';
-import HomeView from '../views/HomeView.vue'
+import HomePage from '../pages/HomePage.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: "home",
+    component: HomePage,
   },
   {
     path: '/about',
     name: 'about',
-    component: () => import('@/views/AboutPage.vue'),
+    component: () => import('@/pages/AboutPage.vue'),
   },
   {
     path: '/contact',
     name: 'contact',
-    component: () => import('@/views/ContactPage.vue'),
+    component: () => import('@/pages/ContactPage.vue'),
   }
 ]
 

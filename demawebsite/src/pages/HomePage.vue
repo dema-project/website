@@ -48,41 +48,39 @@
           </ion-col>
         </ion-row>
       </ion-grid>
+
+      <page-footer></page-footer>
     </ion-content>
   </ion-page>
 </template>
 
 <script>
 import {
-  IonContent,
   IonPage,
+  IonContent,
   IonTitle,
-  IonToolbar,
-  IonButtons,
   IonButton,
   IonGrid,
   IonRow,
   IonCol,
   IonText,
-  IonFooter,
 } from "@ionic/vue";
 import PageHeader from "../components/PageHeader.vue";
+import PageFooter from "../components/PageFooter.vue";
 
 export default {
   name: "HomePage",
   components: {
-    IonContent,
     IonPage,
+    IonContent,
     IonTitle,
-    IonToolbar,
-    IonButtons,
     IonButton,
     IonGrid,
     IonRow,
     IonCol,
     IonText,
-    IonFooter,
     PageHeader,
+    PageFooter,
   },
 };
 </script>

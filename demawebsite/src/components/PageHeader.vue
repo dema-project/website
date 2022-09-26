@@ -7,6 +7,13 @@
 
       <ion-buttons slot="end" :collapse="true">
         <ion-button
+          router-link="/"
+          class="ion-text-capitalize nav-button"
+          shape="round"
+        >
+          Home
+        </ion-button>
+        <ion-button
           router-link="/about"
           class="ion-text-capitalize nav-button"
           shape="round"
