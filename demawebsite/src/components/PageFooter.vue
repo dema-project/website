@@ -1,6 +1,6 @@
 <template>
   <ion-footer class="b">
-    <div>
+    <div class="ion-text-center">
       <ion-grid>
         <ion-row>
           <ion-col size="6">
@@ -12,10 +12,15 @@
         </ion-row>
       </ion-grid>
     </div>
-    <ion-toolbar>
+
+    <ion-toolbar color="primary">
       <ion-buttons>
-        <ion-button class="ion-text-capitalize">About</ion-button>
-        <ion-button class="ion-text-capitalize">Contact</ion-button>
+        <ion-button shape="round" class="ion-text-capitalize nav-button">
+          About
+        </ion-button>
+        <ion-button shape="round" class="ion-text-capitalize nav-button">
+          Contact
+        </ion-button>
       </ion-buttons>
     </ion-toolbar>
   </ion-footer>
