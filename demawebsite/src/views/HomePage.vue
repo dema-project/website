@@ -48,27 +48,6 @@
           </ion-col>
         </ion-row>
       </ion-grid>
-
-      <ion-footer>
-        <div class="b">
-          <ion-grid>
-            <ion-row>
-              <ion-col size="6">
-                <h1>Some stuff</h1>
-              </ion-col>
-              <ion-col size="6">
-                <h1>Some stuff</h1>
-              </ion-col>
-            </ion-row>
-          </ion-grid>
-        </div>
-        <ion-toolbar>
-          <ion-buttons>
-            <ion-button class="ion-text-capitalize">About</ion-button>
-            <ion-button class="ion-text-capitalize">Contact</ion-button>
-          </ion-buttons>
-        </ion-toolbar>
-      </ion-footer>
     </ion-content>
   </ion-page>
 </template>
